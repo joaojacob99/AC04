@@ -9,3 +9,6 @@ def inicio():
 @app.route('/login')
 def outro_inicio():
     return render_template('Login.html')
+
+if __name__ == '__main__':
+    app.run(debug=True)
